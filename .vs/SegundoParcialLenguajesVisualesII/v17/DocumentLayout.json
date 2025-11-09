@@ -1,0 +1,368 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\apiclientes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\apiclientes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\services\\ilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\services\\ilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\models\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\models\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\models\\dtos\\archivoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\models\\dtos\\archivoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\models\\dtos\\clienteresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\models\\dtos\\clienteresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\models\\dtos\\clienteregistrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\models\\dtos\\clienteregistrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\models\\archivocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\models\\archivocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|h:\\descargas\\segundo parcial lvii\\segundoparciallenguajesvisualesii\\apiclientes\\models\\logapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635E1541-C745-4CA8-8E5B-F86ED0F45346}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\models\\logapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiClientes",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\ApiClientes.csproj",
+              "RelativeDocumentMoniker": "ApiClientes\\ApiClientes.csproj",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\ApiClientes.csproj",
+              "RelativeToolTip": "ApiClientes\\ApiClientes.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-09T02:09:05.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiClientes\\Properties\\launchSettings.json",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiClientes\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-09T03:20:08.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Controllers\\ClientesController.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "ApiClientes\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:40:16.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Models\\Cliente.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\Cliente.cs",
+              "RelativeToolTip": "ApiClientes\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:09:39.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Program.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Program.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Program.cs",
+              "RelativeToolTip": "ApiClientes\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:43:21.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogsController.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Controllers\\LogsController.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Controllers\\LogsController.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Controllers\\LogsController.cs",
+              "RelativeToolTip": "ApiClientes\\Controllers\\LogsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:42:14.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiClientes\\appsettings.json",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\appsettings.json",
+              "RelativeToolTip": "ApiClientes\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-09T02:51:25.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ApiClientes\\appsettings.Development.json",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\appsettings.Development.json",
+              "RelativeToolTip": "ApiClientes\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-09T02:52:28.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoggingMiddleware.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Middleware\\LoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Middleware\\LoggingMiddleware.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Middleware\\LoggingMiddleware.cs",
+              "RelativeToolTip": "ApiClientes\\Middleware\\LoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:38:46.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LogService.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Services\\LogService.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Services\\LogService.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Services\\LogService.cs",
+              "RelativeToolTip": "ApiClientes\\Services\\LogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:35:34.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Services\\ClienteService.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Services\\ClienteService.cs",
+              "RelativeToolTip": "ApiClientes\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:30:34.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ILogService.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Services\\ILogService.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Services\\ILogService.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Services\\ILogService.cs",
+              "RelativeToolTip": "ApiClientes\\Services\\ILogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:29:47.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IClienteService.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Services\\IClienteService.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Services\\IClienteService.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Services\\IClienteService.cs",
+              "RelativeToolTip": "ApiClientes\\Services\\IClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:27:59.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\DTOs\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Models\\DTOs\\ApiResponse.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\DTOs\\ApiResponse.cs",
+              "RelativeToolTip": "ApiClientes\\Models\\DTOs\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:26:41.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ArchivoResponseDto.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\DTOs\\ArchivoResponseDto.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Models\\DTOs\\ArchivoResponseDto.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\DTOs\\ArchivoResponseDto.cs",
+              "RelativeToolTip": "ApiClientes\\Models\\DTOs\\ArchivoResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:25:55.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClienteResponseDto.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\DTOs\\ClienteResponseDto.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Models\\DTOs\\ClienteResponseDto.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\DTOs\\ClienteResponseDto.cs",
+              "RelativeToolTip": "ApiClientes\\Models\\DTOs\\ClienteResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:25:28.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClienteRegistroDto.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\DTOs\\ClienteRegistroDto.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Models\\DTOs\\ClienteRegistroDto.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\DTOs\\ClienteRegistroDto.cs",
+              "RelativeToolTip": "ApiClientes\\Models\\DTOs\\ClienteRegistroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:24:43.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Data\\AppDbContext.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ApiClientes\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwGEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:15:17.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LogApi.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\LogApi.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Models\\LogApi.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\LogApi.cs",
+              "RelativeToolTip": "ApiClientes\\Models\\LogApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:14:25.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ArchivoCliente.cs",
+              "DocumentMoniker": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\ArchivoCliente.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Models\\ArchivoCliente.cs",
+              "ToolTip": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\Models\\ArchivoCliente.cs",
+              "RelativeToolTip": "ApiClientes\\Models\\ArchivoCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:13:24.656Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

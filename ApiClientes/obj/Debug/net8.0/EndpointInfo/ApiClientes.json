@@ -1,0 +1,299 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API de Gestión de Clientes",
+    "description": "API REST para registro y gestión de clientes con archivos asociados",
+    "contact": {
+      "name": "Soporte Técnico",
+      "email": "soporte@ejemplo.com"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Clientes/registrar": {
+      "post": {
+        "tags": [
+          "Clientes"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "CI",
+                  "Direccion",
+                  "Nombres",
+                  "Telefono"
+                ],
+                "type": "object",
+                "properties": {
+                  "CI": {
+                    "maxLength": 50,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "Nombres": {
+                    "maxLength": 200,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "Direccion": {
+                    "maxLength": 500,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "Telefono": {
+                    "maxLength": 20,
+                    "minLength": 0,
+                    "type": "string",
+                    "format": "tel"
+                  },
+                  "FotoCasa1": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "FotoCasa2": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "FotoCasa3": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "CI": {
+                  "style": "form"
+                },
+                "Nombres": {
+                  "style": "form"
+                },
+                "Direccion": {
+                  "style": "form"
+                },
+                "Telefono": {
+                  "style": "form"
+                },
+                "FotoCasa1": {
+                  "style": "form"
+                },
+                "FotoCasa2": {
+                  "style": "form"
+                },
+                "FotoCasa3": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Clientes/{ci}/subir-archivos": {
+      "post": {
+        "tags": [
+          "Clientes"
+        ],
+        "parameters": [
+          {
+            "name": "ci",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "archivo": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "archivo": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Clientes/{ci}": {
+      "get": {
+        "tags": [
+          "Clientes"
+        ],
+        "parameters": [
+          {
+            "name": "ci",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Clientes": {
+      "get": {
+        "tags": [
+          "Clientes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Logs": {
+      "get": {
+        "tags": [
+          "Logs"
+        ],
+        "parameters": [
+          {
+            "name": "cantidad",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 100
+            }
+          },
+          {
+            "name": "tipoLog",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Logs/limpiar": {
+      "delete": {
+        "tags": [
+          "Logs"
+        ],
+        "parameters": [
+          {
+            "name": "diasAntiguedad",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 30
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      }
+    }
+  }
+}
