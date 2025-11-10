@@ -154,6 +154,7 @@ H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\ApiClientes.csproj.CoreCompileInputs.cache
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\ApiClientes.MvcApplicationPartsAssemblyInfo.cs
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\ApiClientes.MvcApplicationPartsAssemblyInfo.cache
+H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\ApiClientes.sourcelink.json
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\rjimswa.dswa.cache.json
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -162,10 +163,10 @@ H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\staticwebassets.build.json.cache
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\staticwebassets.development.json
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\ApiClien.B906EDB8.Up2Date
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\ApiClientes.dll
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\refint\ApiClientes.dll
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\ApiClientes.pdb
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\ApiClientes.genruntimeconfig.cache
 H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\ref\ApiClientes.dll
-H:\Descargas\Segundo Parcial LVII\SegundoParcialLenguajesVisualesII\ApiClientes\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
