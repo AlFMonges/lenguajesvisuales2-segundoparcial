@@ -1,90 +1,115 @@
-# 📚 lenguajesvisuales2-segundoparcial
+# 📋 API Clientes
 
-## 🚀 API de Gestión y Archivo de Clientes (ApiClientes)
+API REST desarrollada en ASP.NET Core 8.0 para el registro y gestión de clientes con almacenamiento de fotografías y archivos asociados.
+Incluye sistema de logging automático para seguimiento de operaciones.
 
-### 📋 Descripción General
+**Demo en producción:** [http://apiclientes.runasp.net](http://apiclientes.runasp.net)
 
-[cite_start]Esta es una **API RESTful** desarrollada con **ASP.NET Core Web API (.NET 8.0)** [cite: 11] [cite_start]y **SQL Server** bajo el enfoque **Code First** de Entity Framework Core[cite: 11]. [cite_start]El objetivo principal es gestionar el registro de clientes y sus archivos asociados[cite: 13].
+---
 
-[cite_start]El proyecto implementa buenas prácticas de desarrollo, control de versiones y despliegue en un entorno de hosting[cite: 14].
+## 📄 Descripción General
 
-### 🌟 Requerimientos Implementados
+Sistema que permite:
+- **Registro de clientes** con información básica (CI, nombres, dirección, teléfono) y hasta 3 fotografías de su vivienda
+- **Carga de múltiples archivos** mediante archivos ZIP que se descomprimen automáticamente
+- **Seguimiento completo** de todas las operaciones mediante sistema de logs
 
-| Requisito | Funcionalidad | Descripción |
-| :--- | :--- | :--- |
-| **R1** | Registro de Clientes | [cite_start]Permite registrar datos básicos (CI, Nombres, Dirección, Teléfono) y las tres fotos de casa, almacenadas en la base de datos[cite: 15, 16, 18]. |
-| **R2** | Carga Múltiple de Archivos | [cite_start]Servicio para subir un archivo **.zip**, que se descomprime para guardar múltiples archivos en el servidor y registrar su metadata[cite: 22, 25]. |
-| **R3** | Logging y Errores | [cite_start]Implementación de *middleware* para registrar errores y eventos de seguimiento en la tabla `LogApi`, permitiendo su consulta mediante un *endpoint* GET[cite: 26, 28, 30]. |
-| **R4** | Publicación en Hosting | [cite_start]La API ha sido publicada en un servidor de hosting, con la base de datos configurada y verificada[cite: 31, 33, 34]. |
-| **R5** | Repositorio GitHub | [cite_start]El código fuente completo está disponible en este repositorio público, incluyendo el archivo `README.md`[cite: 35, 37]. |
-| **R6** | Documentación de Pruebas | [cite_start]Se adjunta la documentación de pruebas con evidencias y casos de prueba ejecutados[cite: 38, 39, 40]. |
+Las fotografías se almacenan en la base de datos, mientras que los archivos adicionales se guardan en el servidor con registro de metadata.
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
-| Categoría | Tecnología | Notas |
-| :--- | :--- | :--- |
-| **Backend** | C# / ASP.NET Core (.NET 8.0) | [cite_start]Core del proyecto[cite: 11]. |
-| **Base de Datos** | SQL Server | [cite_start]Usado con Code First[cite: 11]. |
-| **Acceso a Datos** | Entity Framework Core | Gestión de migraciones. |
-| **Documentación** | Swagger / OpenAPI | Documentación interactiva en la ruta raíz. |
-| **Archivos** | `varbinary(max)` y Disco Local | [cite_start]Fotos de casa en DB, documentos y videos en `/uploads`[cite: 18]. |
+### Backend
+- **ASP.NET Core 8.0** - Framework principal
+- **Entity Framework Core 8.0** - ORM para acceso a datos
+- **SQL Server** - Base de datos relacional
+
+### Arquitectura
+- **Code First** - Migraciones automáticas de base de datos
+- **Service Layer Pattern** - Separación de lógica de negocio
+- **Dependency Injection** - Inyección de dependencias nativa
+- **Middleware Pattern** - Captura automática de logs
 
 ---
 
-## ⚙️ Configuración e Instalación Local
+## 🚀 Instrucciones de Ejecución Local
 
-### 1. Requisitos Previos
+### Requisitos Previos
+- [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [SQL Server Express](https://www.microsoft.com/sql-server/sql-server-downloads) o superior
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) o [VS Code](https://code.visualstudio.com/)
 
-* **.NET SDK** (versión compatible con .NET 8.0 o superior).
-* **SQL Server** (o acceso a una instancia de SQL Server).
+### Pasos de Instalación
 
-### 2. Ejecución del Proyecto
+#### 1. Clonar el repositorio
+```bash
+git clone  https://github.com/AlFMonges/lenguajesvisuales2-segundoparcial.git
 
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[TU_USUARIO]/lenguajesvisuales2-segundoparcial.git
-    cd ApiClientes
-    ```
-2.  **Configurar Cadena de Conexión:**
-    Asegúrate de que la cadena de conexión `ConexionSqlProduccion` en `appsettings.json` apunte a tu instancia local de SQL Server.
-3.  **Restaurar dependencias y Ejecutar:**
-    ```bash
-    dotnet restore
-    dotnet run
-    ```
-    La aplicación intentará **aplicar las migraciones** de la base de datos automáticamente al iniciar.
+cd api-clientes
+```
+
+#### 2. Restaurar paquetes NuGet
+```bash
+dotnet restore
+```
+
+#### 3. Configurar la conexión a base de datos
+
+Editar el archivo `appsettings.json` y actualizar la cadena de conexión:
+```json
+{
+  "ConnectionStrings": {
+    "ConexionSqlProduccion": "Server=localhost\\SQLEXPRESS;Database=ClientesDB;User ID=sa;Password=xxxxxxxxx;Trusted_Connection=True;TrustServerCertificate=True;Encrypt=False"
+  }
+}
+```
+
+**Nota:** Ajusta `localhost\\SQLEXPRESS` según tu instalación de SQL Server.
+
+#### 4. Aplicar migraciones (crear base de datos)
+```bash
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+```
+
+Esto creará automáticamente la base de datos `ClientesDB` con todas las tablas necesarias.
+
+#### 5. Ejecutar la aplicación
+```bash
+dotnet run
+```
+
+La aplicación estará disponible en:
+- http://localhost:5289
 
 ---
 
-## 🧭 Endpoints Principales
+## 📌 Endpoints Principales
 
-La documentación completa de los *endpoints* está disponible en **Swagger UI** en la ruta raíz de la aplicación local (ej: `https://localhost:XXXX/`).
-
-| Funcionalidad | Método | Ruta (Base: `/api/`) |
-| :--- | :--- | :--- |
-| **Registro de Cliente** | `POST` | `/Clientes` |
-| **Subir Archivos ZIP** | `POST` | `/Clientes/{ci}/Archivos` |
-| **Consulta de Logs** | `GET` | `/Logs` |
-| **Obtener Cliente por CI** | `GET` | `/Clientes/{ci}` |
-| **Listar Todos Clientes** | `GET` | `/Clientes` |
-| **Descarga Archivos** | `GET` | `/uploads/{ci}/{nombreArchivo}` |
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| `POST` | `/api/clientes/registrar` | Registrar nuevo cliente con fotos |
+| `GET` | `/api/clientes` | Obtener todos los clientes |
+| `GET` | `/api/clientes/{ci}` | Obtener cliente específico |
+| `POST` | `/api/clientes/{ci}/subir-archivos` | Subir archivos ZIP para cliente |
+| `GET` | `/api/logs` | Consultar logs del sistema |
 
 ---
 
-## 🌎 Despliegue y Acceso Público (R4)
+## 🗄️ Estructura de la Base de Datos
 
-La API ha sido publicada en un servidor de *hosting*.
+El sistema crea automáticamente 3 tablas:
 
-### 1. URL Base del Entorno Publicado
+- **Clientes**: Información básica y fotografías (almacenadas como VARBINARY)
+- **ArchivosCliente**: Metadata de archivos subidos por cada cliente
+- **LogsApi**: Registro de todas las operaciones del sistema
 
-> **URL de la API:** `[COLOCAR AQUÍ LA URL DEL SERVIDOR WEB, EJ: https://api.tudominio.com]`
+---
 
-### 2. Acceso a la Documentación (Swagger UI)
+## 📧 Contacto
 
-La documentación interactiva y los *endpoints* están disponibles en la raíz del entorno publicado:
-
-> **URL de Swagger:** `[URL_DEL_SERVIDOR]/`
+**Desarrollador:** Alcides Monges  
+**Email:** alfmonges95@gmail.com
 
 ---
