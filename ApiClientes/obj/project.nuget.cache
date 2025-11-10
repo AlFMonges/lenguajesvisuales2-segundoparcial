@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lcdkjPIjzrc=",
+  "dgSpecHash": "gnPyw3PfO4o=",
   "success": true,
-  "projectFilePath": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\ApiClientes.csproj",
+  "projectFilePath": "D:\\Usuarios\\Alcides Monges\\Nueva carpeta (2)\\Segundo Parcial LVII\\lenguajesvisuales2-segundoparcial\\ApiClientes\\ApiClientes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alcim\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\alcim\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

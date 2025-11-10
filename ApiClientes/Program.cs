@@ -22,7 +22,7 @@ builder.Services.AddSwaggerGen(c =>
         Contact = new OpenApiContact
         {
             Name = "Soporte Técnico",
-            Email = "soporte@ejemplo.com"
+            Email = "alfmonges95@gmail.com"
         }
     });
     
@@ -93,34 +93,28 @@ builder.Services.AddResponseCompression(options =>
 
 var app = builder.Build();
 
-// Aplicar migraciones automáticamente en desarrollo
-if (app.Environment.IsDevelopment())
+// Aplicar migraciones automáticamente
+using (var scope = app.Services.CreateScope())
 {
-    using (var scope = app.Services.CreateScope())
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    try
     {
-        var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-        try
-        {
-            dbContext.Database.Migrate();
-            app.Logger.LogInformation("Migraciones aplicadas exitosamente");
-        }
-        catch (Exception ex)
-        {
-            app.Logger.LogError(ex, "Error al aplicar migraciones");
-        }
+        dbContext.Database.Migrate();
+        app.Logger.LogInformation("Migraciones aplicadas exitosamente");
+    }
+    catch (Exception ex)
+    {
+        app.Logger.LogError(ex, "Error al aplicar migraciones");
     }
 }
 
 // Configurar pipeline
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Clientes API V1");
-        c.RoutePrefix = string.Empty; // Swagger en la raíz
-    });
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Clientes API V1");
+    c.RoutePrefix = string.Empty; // Swagger en la raíz
+});
 
 app.UseResponseCompression();
 app.UseCors("AllowAll");

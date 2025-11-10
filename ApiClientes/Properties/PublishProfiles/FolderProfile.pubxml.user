@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Usuarios\Alcides Monges\Nueva carpeta (2)\Segundo Parcial LVII\publish</_PublishTargetUrl>
+    <History>True|2025-11-10T21:01:47.6845461Z||;True|2025-11-10T17:50:44.2434262-03:00||;True|2025-11-10T16:43:04.9251450-03:00||;True|2025-11-10T15:54:29.1296816-03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConexionSqlDesarrollo">
+      <Value>Server=db31960.public.databaseasp.net%3b Database=db31960%3b User Id=db31960%3b Password=Ge7!6Y%40hBf8=%3b Encrypt=True%3b TrustServerCertificate=True%3b MultipleActiveResultSets=True%3b </Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="ConexionSqlProduccion">
+      <Value>Server=db31960.public.databaseasp.net%3b Database=db31960%3b User Id=db31960%3b Password=Ge7!6Y%40hBf8=%3b Encrypt=True%3b TrustServerCertificate=True%3b MultipleActiveResultSets=True%3b </Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ApiClientes.Data.AppDbContext">
+      <Value>Server=db31960.public.databaseasp.net%3b Database=db31960%3b User Id=db31960%3b Password=Ge7!6Y%40hBf8=%3b Encrypt=True%3b TrustServerCertificate=True%3b MultipleActiveResultSets=True%3b </Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

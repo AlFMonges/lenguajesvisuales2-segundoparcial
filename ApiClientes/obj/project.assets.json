@@ -5165,11 +5165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\ApiClientes.csproj",
+      "projectUniqueName": "D:\\Usuarios\\Alcides Monges\\Nueva carpeta (2)\\Segundo Parcial LVII\\lenguajesvisuales2-segundoparcial\\ApiClientes\\ApiClientes.csproj",
       "projectName": "ApiClientes",
-      "projectPath": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\ApiClientes.csproj",
+      "projectPath": "D:\\Usuarios\\Alcides Monges\\Nueva carpeta (2)\\Segundo Parcial LVII\\lenguajesvisuales2-segundoparcial\\ApiClientes\\ApiClientes.csproj",
       "packagesPath": "C:\\Users\\alcim\\.nuget\\packages\\",
-      "outputPath": "H:\\Descargas\\Segundo Parcial LVII\\SegundoParcialLenguajesVisualesII\\ApiClientes\\obj\\",
+      "outputPath": "D:\\Usuarios\\Alcides Monges\\Nueva carpeta (2)\\Segundo Parcial LVII\\lenguajesvisuales2-segundoparcial\\ApiClientes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5252,7 +5252,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
